@@ -25,6 +25,14 @@ h2{
     font-size: small;
 }
 
-.block1{
-    
+.wrapper {
+    display:flex;   
+}
+
+#hebergements-marseille .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.hebergements-top .hebergements-bottom {
+    display: flex;
 }
